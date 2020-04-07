@@ -130,7 +130,7 @@ class LinkedList {
     }
 
     get(index) {
-        return this.getNode(index).data;
+        return this.#getNode(index).data;
     }
 
     remove(index) {
